@@ -1,0 +1,54 @@
+#home {
+    .post-area {
+        background-color: white;
+        padding: 10px;
+        .post-area__images {
+            margin: 20px 0;
+            padding-top: 8px;
+            border-radius: 6px;
+            border: 1px solid #d9d9d9;
+        }
+
+        .post-area__select {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .post-area__button {
+            margin: 10px 0;
+        }
+    }
+
+    .display-area {
+        margin-top: 20px;
+        background-color: white;
+        padding: 10px;
+        .display-area__card {
+            margin: 10px;
+            .author-info {
+                float: left;
+                width: 100%;
+                align-items: center;
+                text-align: left;
+                padding-bottom: 10px;
+                margin-bottom: 10px;
+                border-bottom: 1px solid gainsboro
+            }
+            .post-content {
+                text-align: left;
+                margin: 0 40px;
+                .text {
+                    margin: 10px 0;
+                }
+                .images-container {
+                    margin-right: 5px;
+                    .image {
+                        border-radius: 10px;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+    }
+}

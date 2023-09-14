@@ -1,0 +1,26 @@
+#verify {
+    .card-area {
+        margin-bottom: 10px;
+
+        &.credential {
+            min-height: 400px;
+        }
+    }
+    .bytes-area {
+        margin: 20px 0;
+        .bytes-area_text {
+            height: 80px;
+        }
+    }
+    .button-area {
+        margin: 20px 0;
+        .button-area__button {
+            background-color: rgb(28, 40, 71);
+            color: white;
+            height: 59px;
+            width: 200px;
+            font-size: 18px;
+            font-family: Sarala-Regular, Arial, sans-serif;
+        }
+    }
+}

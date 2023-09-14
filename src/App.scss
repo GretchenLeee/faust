@@ -1,0 +1,26 @@
+#app {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        padding: 0;
+    }
+
+    .sidebar {
+        width: 100%;
+        background-color: white;
+
+        .logo {
+            height: 64px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .content {
+        padding: 10px 24px;
+        min-height: 100vh;
+    }
+}
